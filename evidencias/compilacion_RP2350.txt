@@ -1,0 +1,115 @@
+PICO_SDK_PATH is /tmp/uart-pico-sdk
+Target board (PICO_BOARD) is 'pico2_w'.
+Using board configuration from /tmp/uart-pico-sdk/src/boards/include/boards/pico2_w.h
+Pico Platform (PICO_PLATFORM) is 'rp2350-arm-s'.
+Build type is Release
+Using picotool from /tmp/uart-build-pico2w/_deps/picotool/picotool
+CMake Warning at /tmp/uart-pico-sdk/src/rp2_common/tinyusb/CMakeLists.txt:14 (message):
+  TinyUSB submodule has not been initialized; USB support will be unavailable
+
+  hint: try 'git submodule update --init' from your SDK directory
+  (/tmp/uart-pico-sdk).
+
+
+CMake Warning at /tmp/uart-pico-sdk/src/rp2_common/pico_btstack/CMakeLists.txt:11 (message):
+  btstack submodule has not been initialized; Pico W BLE support will be
+  unavailable.
+
+              hint: try 'git submodule update --init' from your SDK directory (/tmp/uart-pico-sdk).
+
+
+CMake Warning at /tmp/uart-pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeLists.txt:12 (message):
+  cyw43-driver submodule has not been initialized; Pico W wireless support
+  will be unavailable
+
+  hint: try 'git submodule update --init' from your SDK directory
+  (/tmp/uart-pico-sdk).
+
+
+CMake Warning at /tmp/uart-pico-sdk/src/rp2_common/pico_lwip/CMakeLists.txt:11 (message):
+  LWIP submodule has not been initialized; Pico W wireless support will be
+  unavailable
+
+  #hint: try 'git submodule update --init' from your SDK directory
+  (/tmp/uart-pico-sdk).
+
+
+-- Configuring done (0.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/uart-build-pico2w
+[  1%] Building ASM object pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.o
+[  3%] Linking ASM executable bs2_default.elf
+[  3%] Built target bs2_default
+[  4%] Generating bs2_default.bin
+[  6%] Generating bs2_default_padded_checksummed.S
+[  7%] Building ASM object pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.o
+[  7%] Built target bs2_default_library
+[ 14%] Building C object CMakeFiles/uart_rs232.dir/src/main.c.o
+[ 14%] Building C object CMakeFiles/uart_rs232.dir/src/uart_link.c.o
+[ 14%] Building C object CMakeFiles/uart_rs232.dir/tmp/uart-pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
+[ 14%] Building C object CMakeFiles/uart_rs232.dir/tmp/uart-pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
+[ 15%] Building C object CMakeFiles/uart_rs232.dir/tmp/uart-pico-sdk/src/rp2350/pico_platform/platform.c.o
+[ 17%] Building C object CMakeFiles/uart_rs232.dir/tmp/uart-pico-sdk/src/rp2_common/pico_platform_common/common.c.o
+[ 19%] Building C object CMakeFiles/uart_rs232.dir/tmp/uart-pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
+[ 20%] Building C object CMakeFiles/uart_rs232.dir/tmp/uart-pico-sdk/src/common/hardware_claim/claim.c.o
+[ 22%] Building C object CMakeFiles/uart_rs232.dir/tmp/uart-pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+[ 23%] Building C object CMakeFiles/uart_rs232.dir/tmp/uart-pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+[ 25%] Building C object CMakeFiles/uart_rs232.dir/tmp/uart-pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+[ 26%] Building ASM object CMakeFiles/uart_rs232.dir/tmp/uart-pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
+[ 30%] Building C object CMakeFiles/uart_rs232.dir/tmp/uart-pico-sdk/src/common/pico_sync/lock_core.c.o
+[ 30%] Building C object CMakeFiles/uart_rs232.dir/tmp/uart-pico-sdk/src/common/pico_sync/sem.c.o
+[ 31%] Building C object CMakeFiles/uart_rs232.dir/tmp/uart-pico-sdk/src/common/pico_sync/mutex.c.o
+[ 33%] Building C object CMakeFiles/uart_rs232.dir/tmp/uart-pico-sdk/src/common/pico_sync/critical_section.c.o
+[ 34%] Building C object CMakeFiles/uart_rs232.dir/tmp/uart-pico-sdk/src/common/pico_time/time.c.o
+[ 36%] Building C object CMakeFiles/uart_rs232.dir/tmp/uart-pico-sdk/src/common/pico_time/timeout_helper.c.o
+[ 38%] Building C object CMakeFiles/uart_rs232.dir/tmp/uart-pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+[ 39%] Building C object CMakeFiles/uart_rs232.dir/tmp/uart-pico-sdk/src/common/pico_util/datetime.c.o
+[ 41%] Building C object CMakeFiles/uart_rs232.dir/tmp/uart-pico-sdk/src/common/pico_util/pheap.c.o
+[ 42%] Building C object CMakeFiles/uart_rs232.dir/tmp/uart-pico-sdk/src/common/pico_util/queue.c.o
+[ 44%] Building C object CMakeFiles/uart_rs232.dir/tmp/uart-pico-sdk/src/rp2_common/hardware_uart/uart.c.o
+[ 46%] Building C object CMakeFiles/uart_rs232.dir/tmp/uart-pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+[ 47%] Building C object CMakeFiles/uart_rs232.dir/tmp/uart-pico-sdk/src/rp2_common/hardware_pll/pll.c.o
+[ 50%] Building C object CMakeFiles/uart_rs232.dir/tmp/uart-pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
+[ 50%] Building C object CMakeFiles/uart_rs232.dir/tmp/uart-pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
+[ 52%] Building C object CMakeFiles/uart_rs232.dir/tmp/uart-pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
+[ 53%] Building C object CMakeFiles/uart_rs232.dir/tmp/uart-pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+[ 55%] Building C object CMakeFiles/uart_rs232.dir/tmp/uart-pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
+[ 57%] Building C object CMakeFiles/uart_rs232.dir/tmp/uart-pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
+[ 58%] Building C object CMakeFiles/uart_rs232.dir/tmp/uart-pico-sdk/src/rp2_common/pico_flash/flash.c.o
+[ 60%] Building C object CMakeFiles/uart_rs232.dir/tmp/uart-pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
+[ 61%] Building C object CMakeFiles/uart_rs232.dir/tmp/uart-pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+[ 63%] Building C object CMakeFiles/uart_rs232.dir/tmp/uart-pico-sdk/src/rp2_common/hardware_divider/divider.c.o
+[ 65%] Building C object CMakeFiles/uart_rs232.dir/tmp/uart-pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+[ 66%] Building C object CMakeFiles/uart_rs232.dir/tmp/uart-pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
+[ 68%] Building C object CMakeFiles/uart_rs232.dir/tmp/uart-pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
+[ 69%] Building ASM object CMakeFiles/uart_rs232.dir/tmp/uart-pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
+[ 74%] Building C object CMakeFiles/uart_rs232.dir/tmp/uart-pico-sdk/src/rp2_common/pico_double/double_math.c.o
+[ 74%] Building C object CMakeFiles/uart_rs232.dir/tmp/uart-pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.o
+[ 74%] Building ASM object CMakeFiles/uart_rs232.dir/tmp/uart-pico-sdk/src/rp2_common/pico_double/double_aeabi_dcp.S.o
+[ 76%] Building ASM object CMakeFiles/uart_rs232.dir/tmp/uart-pico-sdk/src/rp2_common/pico_double/double_fma_dcp.S.o
+[ 77%] Building ASM object CMakeFiles/uart_rs232.dir/tmp/uart-pico-sdk/src/rp2_common/pico_double/double_sci_m33.S.o
+[ 79%] Building ASM object CMakeFiles/uart_rs232.dir/tmp/uart-pico-sdk/src/rp2_common/pico_double/double_conv_m33.S.o
+[ 80%] Building C object CMakeFiles/uart_rs232.dir/tmp/uart-pico-sdk/src/rp2_common/pico_float/float_math.c.o
+[ 82%] Building ASM object CMakeFiles/uart_rs232.dir/tmp/uart-pico-sdk/src/rp2_common/pico_float/float_conv32_vfp.S.o
+[ 84%] Building ASM object CMakeFiles/uart_rs232.dir/tmp/uart-pico-sdk/src/rp2_common/pico_float/float_common_m33.S.o
+[ 85%] Building ASM object CMakeFiles/uart_rs232.dir/tmp/uart-pico-sdk/src/rp2_common/pico_float/float_sci_m33_vfp.S.o
+[ 87%] Building C object CMakeFiles/uart_rs232.dir/tmp/uart-pico-sdk/src/rp2_common/pico_atomic/atomic.c.o
+[ 88%] Building C object CMakeFiles/uart_rs232.dir/tmp/uart-pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
+[ 90%] Building CXX object CMakeFiles/uart_rs232.dir/tmp/uart-pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o
+[ 92%] Building C object CMakeFiles/uart_rs232.dir/tmp/uart-pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+[ 93%] Building C object CMakeFiles/uart_rs232.dir/tmp/uart-pico-sdk/src/rp2_common/pico_printf/printf.c.o
+[ 95%] Building ASM object CMakeFiles/uart_rs232.dir/tmp/uart-pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
+[ 96%] Building C object CMakeFiles/uart_rs232.dir/tmp/uart-pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+[ 98%] Building C object CMakeFiles/uart_rs232.dir/tmp/uart-pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+[100%] Linking CXX executable uart_rs232.elf
+[100%] Built target uart_rs232
+[  3%] Built target bs2_default
+[  7%] Built target bs2_default_library
+[  9%] Building C object CMakeFiles/uart_rs232.dir/src/main.c.o
+[ 11%] Linking CXX executable uart_rs232.elf
+[100%] Built target uart_rs232
+[  3%] Built target bs2_default
+[  7%] Built target bs2_default_library
+[  9%] Building C object CMakeFiles/uart_rs232.dir/src/main.c.o
+[ 11%] Linking CXX executable uart_rs232.elf
+[100%] Built target uart_rs232

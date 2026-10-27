@@ -1,1 +1,1 @@
-
+PASS: regs, sdk, multiword, missing text without reinit, current mode, missing arguments
