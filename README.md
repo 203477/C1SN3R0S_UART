@@ -3,7 +3,7 @@
 **Ana Nickole Cisneros Herrera — 203477**  
 **Leslie Yoselin Sánchez Flores — 201831**
 
-Proyecto de la actividad integradora de periféricos. Adaptación del monitor C proporcionado, con atribución y copia intacta en `original/main_base.c`. El mismo código se compila para Pico RP2040 y Pico 2 W RP2350. Ambas implementaciones UART son seleccionables desde el REPL.
+ El mismo código se compila para Pico RP2040 y Pico 2 W RP2350. Ambas implementaciones UART son seleccionables desde el REPL.
 
 ## Primero revisa el adaptador
 
@@ -122,11 +122,3 @@ El modo SDK usa `uart_init`, `uart_set_format`, `uart_set_hw_flow`, `uart_set_fi
 | Configuración UART usada | 9600 8N1 | 9600 8N1 |
 
 Los offsets y campos UART usados son comunes. Hay dos UART y FIFO de 32 entradas en ambas. El código utiliza macros del SDK específicas de cada chip, no direcciones copiadas de RP2040. El reloj periférico se consulta, no se asume igual a la frecuencia máxima de CPU. Los pines físicos elegidos coinciden en ambas placas.
-
-## Demostración y entrega
-
-Sigue `docs/PRUEBAS.md`, repite los dos modos en cada placa y guarda fotos/video y logs auténticos en `evidencias/`. La carpeta `firmware/` incluye los binarios si se pudieron compilar y su estado está en `docs/VALIDACION.md`. Compilar no demuestra funcionamiento eléctrico.
-
-La presentación está en `docs/Presentacion_UART.pdf` y su versión editable en PPTX. El guion incluye distribución para ambas integrantes y 45 minutos de exposición. El mapa completo está en `docs/REGISTROS.md`. Para dudas técnicas, usar `docs/PREGUNTAS.md`.
-
-Sube este contenido a un repositorio accesible al grupo, sin `build*` ni la copia del SDK. El paquete no publica por sí solo un repositorio. Agrega la URL real y las evidencias después de probar. No inventar resultados ni entregar plantillas de evidencia como si fueran pruebas realizadas.
